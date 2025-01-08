@@ -87,3 +87,49 @@ button {
     align-self: center;
     gap: 20px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px 80px;
+    gap: 40px;
+
+}
+
+.cards-grouped {
+    display: flex;
+    gap: 40px;
+}
+
+.card-info {
+    font-size: 18px;
+    color:#636262;
+    text-align: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.card > img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: 900;
+}
