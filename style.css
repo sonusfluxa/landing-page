@@ -36,6 +36,7 @@ button {
     padding: 5px 20px;
     border-radius: 5px;
     border: none;
+    font-weight: 900;
 }
 
 .logo {
@@ -121,6 +122,17 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
@@ -132,4 +144,37 @@ button {
 .quote-name {
     font-size: 24px;
     font-weight: 900;
+    align-self: flex-end;
+}
+
+.box {
+    padding: 80px;
+}
+
+.box-content {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-button {
+    border: 1px solid #F9FAF8;
+}
+
+.box-bold {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.box-text > div {
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
