@@ -78,6 +78,8 @@ button {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .subhero {
@@ -101,6 +103,7 @@ button {
 .cards-grouped {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .card-info {
